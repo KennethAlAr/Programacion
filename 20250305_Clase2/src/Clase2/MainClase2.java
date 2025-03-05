@@ -33,6 +33,5 @@ public class MainClase2 {
 
         System.out.println("El resultado de la expresión es: " + resultado);
         System.out.println("El resultado de la expresión es: " + resultado2);
-
     }
 }
