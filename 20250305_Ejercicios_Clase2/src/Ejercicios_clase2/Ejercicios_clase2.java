@@ -152,10 +152,39 @@ public class Ejercicios_clase2 {
 
         System.out.println();
 
-        /*
-9️⃣ Escribe un código que reciba un número e indique si es par o impar usando el operador módulo (%).
-🔟 Define una constante TASA_CAMBIO con el valor 1.12 (dólar a euro). Convierte una cantidad de dólares ingresada por el usuario a euros.
-         */
+//9️⃣ Escribe un código que reciba un número e indique si es par o impar usando el operador módulo (%).
+
+        System.out.println("\uD83D\uDCCC EJERCICIO 9");
+        System.out.println();
+
+        Scanner numeroInput = new Scanner(System.in);
+        System.out.println("Ingresa un número entero:");
+        int numero = numeroInput.nextInt();
+
+        int moduloNumero = numero % 2;
+
+        if (moduloNumero == 0) {
+            System.out.println("El número " + numero + " es par.");
+        } else if (moduloNumero == 1) {
+            System.out.println("El número " + numero + " es impar.");
+        }
+
+        System.out.println();
+
+//🔟 Define una constante TASA_CAMBIO con el valor 1.12 (dólar a euro). Convierte una cantidad de dólares ingresada por el usuario a euros.
+
+        System.out.println("\uD83D\uDCCC EJERCICIO 10");
+        System.out.println();
+
+        final double TASA_CAMBIO = 1.12;
+
+        Scanner dolarInput = new Scanner(System.in);
+        System.out.println("Ingresa una cantidad de dólares para convertir a euros:");
+        double dolar = dolarInput.nextDouble();
+
+        double euro = dolar * TASA_CAMBIO;
+
+        System.out.println(dolar + " dólares son " + euro + "euros.");
 
     }
 }
