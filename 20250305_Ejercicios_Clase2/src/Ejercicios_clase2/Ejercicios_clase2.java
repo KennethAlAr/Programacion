@@ -186,5 +186,6 @@ public class Ejercicios_clase2 {
 
         System.out.println(dolar + " dólares son " + euro + "euros.");
 
+
     }
 }
