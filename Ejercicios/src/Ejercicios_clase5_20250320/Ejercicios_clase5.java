@@ -1,3 +1,5 @@
+package Ejercicios_clase5_20250320;
+
 import java.util.Scanner;
 import java.util.Random;
 

@@ -1,6 +1,5 @@
-package Ejercicios_clase2;
+package Ejercicios_clase2_20250305;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Ejercicios_clase2 {
@@ -185,7 +184,6 @@ public class Ejercicios_clase2 {
         double euro = dolar * TASA_CAMBIO;
 
         System.out.println(dolar + " dólares son " + euro + "euros.");
-
 
     }
 }

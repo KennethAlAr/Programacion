@@ -1,3 +1,5 @@
+package Clase5_20250319;
+
 import java.util.Scanner;
 
 public class Clase5 {
