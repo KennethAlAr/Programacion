@@ -38,5 +38,7 @@ public class Clase9 {
 
         Arrays.stream(numeros).forEach(num -> System.out.println("Elemento: " + num)); // La librería 'stream' sirve para hacer varias cosas con vectores. En este ejemplo un for each.
 
+        sc.close();
+
     }
 }
