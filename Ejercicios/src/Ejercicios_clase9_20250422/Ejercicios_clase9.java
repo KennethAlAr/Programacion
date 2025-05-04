@@ -97,12 +97,19 @@ public class Ejercicios_clase9 {
 
         System.out.println("Introduce un número para saber si está en el array:");
         int numeroIntroducido = sc.nextInt();
+        boolean encontrado = false;
 
         for (int i = 0; i < numerosElemento.length; i++) {
             if (numeroIntroducido == numerosElemento[i]) {
                 System.out.println("El número que has introducido, el " + numeroIntroducido +
                         ", se encuentra en la posición " + (i+1) +  " del array.");
+                encontrado = true;
+                break;
             }
+        }
+
+        if (!encontrado){
+            System.out.println("Tu número no está en la lista.");
         }
 
 //      5. Ordenar el array
